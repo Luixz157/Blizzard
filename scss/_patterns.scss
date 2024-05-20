@@ -1,0 +1,41 @@
+.btn-primary {
+  display: flex;
+  align-items: center;
+  height: 4.6rem;
+  padding: 0 3.2rem;
+  background-color: #00AEFF;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all .3s;
+  img {
+    margin-right: 6px;
+  }
+  &:hover {
+    background-color: #40C2FF;
+  }
+}
+
+.btn-outline {
+  display: flex;
+  align-items: center;
+  height: 4.6rem;
+  padding: 0 1.6rem;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-right: 1.6rem;
+  transition: all .3s;
+  &:hover {
+    background-color: #fff;
+    color: #0B0D12;
+  }
+}
